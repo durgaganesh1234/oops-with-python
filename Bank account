@@ -1,0 +1,19 @@
+class account:
+    holdername="hari"
+    Accountnumber="243657898"
+    Balance="3200"
+    
+    def deposit(self,amount):
+        print(amount)
+
+    def withdrawl(self,cash):
+        print(cash)
+    
+    def display(self,Balance):
+         print(self.Balance)
+    
+b=account()          
+b.deposit(1000)
+b.withdrawl(6000)
+b.display(3200)
+       
