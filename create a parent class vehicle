@@ -1,0 +1,22 @@
+class vehicles:
+    brand="bmw"
+    model="m5"
+    
+    def display(self):
+        print("brand:",self.brand)
+        print("model:",self.model)
+        
+class bike(vehicles):
+    name="ninja"
+    colour="black"
+    
+class car(vehicles):
+    name="bmw"
+    colour="blue"
+    
+s=vehicles()    
+b=bike()
+c=car()
+s.display()
+print(b.name,b.colour)
+print(c.name,c.colour)
