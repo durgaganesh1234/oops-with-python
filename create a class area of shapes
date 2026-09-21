@@ -1,0 +1,22 @@
+class shape:
+    dimension="2D"
+class circle(shape):
+    def area(self):
+        area=3.14*5**21
+        print("Area of Circle: ",area)
+class rectangle(shape):
+    def area(self):
+        area=4*5
+        print("Area of Rectangle: ",area)
+class triangle(shape):
+    def area(self):
+        area=0.5*4*5
+        print("Area of Triangle: ",area)
+s=shape()
+r=rectangle()
+c=circle()
+t=triangle()
+
+c.area()
+r.area()
+t.area()
